@@ -1,0 +1,80 @@
+/* Estilos para el cuerpo de la página */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 0;
+}
+
+/* Estilos para el encabezado */
+header {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilos para el título principal */
+h1 {
+  font-size: 36px;
+  margin-top: 20px;
+}
+
+/* Estilos para la barra de navegación */
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+/* Estilos para las secciones */
+section {
+  margin: 20px;
+  padding: 20px;
+  background-color: lightcoral;
+  border: 1px solid yellow;
+  border-radius: 10px; /* Agregada propiedad border-radius */
+  background-image: url("https://www.solbyte.com/blog/wp-content/uploads/servicios-de-desarrollo-de-software-portada.jpg"); /* Agregada propiedad background-image */
+  background-repeat: repeat; /* Agregada propiedad background-repeat */
+  box-shadow: 5px 5px 10px rgba(255, 125, 0, 0.5); /* Agregada propiedad box-shadow */
+  text-transform: uppercase; /* Agregada propiedad text-transform */
+  text-align: justify; /* Agregada propiedad text-align */
+}
+
+/* Estilos para los títulos de sección */
+section h2 {
+  font-size: 24px;
+  font-weight: bold; /* Agregada propiedad font-weight */
+}
+
+/* Estilos para las listas de servicios */
+ul {
+  list-style-image: url("bullet.png"); /* Agregada propiedad list-style-image */
+  margin-left: 20px;
+  list-style-type: square; /* Agregada propiedad list-style-type */
+}
+
+/* Estilos para el pie de página */
+footer {
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Estilos para enlaces */
+a {
+  color: #007bff;
+  text-decoration: underline; /* Agregada propiedad text-decoration */
+  font-weight: bold; /* Agregada propiedad font-weight */
+}
