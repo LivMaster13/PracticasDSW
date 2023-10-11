@@ -6,11 +6,16 @@ var mesesDelAnio = [
   "Abril",
   "Mayo",
   "Junio",
+  "Julio",
   "Agosto",
   "Septiembre",
   "Octubre",
   "Noviembre",
 ];
+
+for (var i = 0; i < mesesDelAnio.length; i++) {
+  alert(mesesDelAnio[i]);
+}
 
 // Agregar diciembre fuera del arreglo
 var diciembre = "Diciembre";
@@ -22,6 +27,13 @@ alert(
 
 mesesDelAnio.push(diciembre); // Agregar diciembre al arreglo
 
+for (var i = 0; i < mesesDelAnio.length; i++) {
+  alert(mesesDelAnio[i]);
+}
+
 for (var mes of mesesDelAnio) {
+  if (mes === "Julio") {
+    continue; // Saltar la iteración si el mes es "Julio"
+  }
   alert("Mes: " + mes);
 }
