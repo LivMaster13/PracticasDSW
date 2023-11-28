@@ -1,0 +1,33 @@
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 88vh;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 30vw;
+    margin-bottom: auto;
+  }
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+  p {
+    color: #fff; /* Color del texto */
+    text-align:justify;
+  }
+
+  button {
+    width: 100%;
+    font-size: 20px;
+    margin-top: 10px;
+  }
+  

@@ -1,0 +1,68 @@
+
+
+main {
+    height: 88vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+h1{
+    margin-top: 3rem;
+    margin-bottom: 14rem;
+}
+
+span{
+    font-size: 1rem;
+    position: fixed;
+    margin-left: 6.5rem;
+    border-radius: 5px;
+    box-shadow: inset 10px 20px 700px rgba(0, 0, 0, 0.75);
+}
+
+
+.card {
+    height: 200px;
+    background-color: rgba(0, 0, 0, 0.4);
+    color: white;
+    font-size: 40px;
+    margin: 10px;
+    flex: 200px 0 0;
+  }
+  .cards img {
+      width: 100%;
+      object-fit: cover;
+  }
+  .cards-wrapper {
+    display: flex; 
+    transition: ease 0.5s;
+  }
+  .display-area {
+    width: 1100px;
+  /*   border: 1px solid black; */
+    overflow-x: hidden;
+    margin: auto;
+  }
+  
+  .dots-wrapper {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+  }
+  
+  .dot {
+    border: none;
+    background: rgba(255, 255, 255, 0.5);
+    width: 20px;
+    height: 20px;
+    margin: 5px;
+    border-radius: 50%;
+    outline: none;
+  }
+  .dot:hover {
+    background: rgba(255, 255, 255, 0.75);
+  }
+  .dot.active {
+    background: rgba(255, 255, 255, 1);
+  }

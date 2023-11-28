@@ -1,0 +1,36 @@
+main{
+    height: 88vh;
+    display: flex;
+    align-items: center;
+    margin: auto;
+}
+
+#img-1{
+margin: auto 5rem;
+}
+    
+#img-3{
+    margin: auto 5rem;
+}
+
+img{
+    height:180px; 
+    width:300px;
+    border-radius: 10px;
+}
+
+.glass-container {
+    background: rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(5px);
+    padding: 1rem;
+    border-radius: 10px;
+    max-width: 60vw;
+    margin: 2vh 5rem;
+  }
+
+
+  p {
+    color: #fff; /* Color del texto */
+    text-align:justify;
+  }
+  
